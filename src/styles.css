@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-top: calc(50px - 16px);
+}
+
+button {
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+  font-size: 1.2rem;
+  margin: 16px;
+}
+
+.home-image {
+  border-radius: 8px;
+  height: 400px;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 60vw;
+}
+
+div {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.menu-item {
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.appetizers, .entrees, .desserts {
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.menu-header {
+  text-align: left;
+  margin-bottom: 16px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.about-content {
+  text-align: left;
+}
+
+.about-title {
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: bold;
+  width: 100%;
+}
+
+
+
